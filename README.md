@@ -5,4 +5,4 @@ As a result, I got persistence and a passion for putting my best self into my wo
 
 I'm always looking for feedack; if you have any, please don't hesitate to reach out.
 
-Thank you for taking a look and have a good day! 
+Thank you for taking a look, and have a good day! 

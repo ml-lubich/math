@@ -35,6 +35,46 @@ flowchart LR
 ## Table of contents
 
 - [Contents](#contents)
+- [LaTeX build (algorithm)](#latex-build-algorithm)
+- [Topic map](#topic-map)
+
+## LaTeX build (algorithm)
+
+```mermaid
+flowchart LR
+    A([*.tex source])
+    B["pdflatex pass 1<br/>resolve refs"]
+    C{"refs changed?"}
+    D["pdflatex pass 2<br/>fix labels"]
+    E["bibtex (if .bib)"]
+    F["pdflatex final pass"]
+    G([*.pdf])
+    A --> B --> C
+    C -- yes --> D --> E --> F --> G
+    C -- no  --> G
+```
+
+## Topic map
+
+```mermaid
+flowchart TB
+    M["Math 1B + Multivariable"]
+    ODE["Differential Equations"]
+    NUM["Numerical methods"]
+    LIN["Linear theory"]
+    CPLX["Complex Numbers"]
+    SER["Series + Integrals"]
+
+    M --> ODE
+    M --> CPLX
+    M --> SER
+    ODE --> NUM
+    ODE --> LIN
+    NUM -.-> EUL["Extending Euler's Method.pdf"]
+    LIN -.-> VOP["Variation of Parameters.pdf"]
+    CPLX -.-> CXN["What are the Complex Numbers?.pdf"]
+    SER -.-> WRP["Wrap up of Math 1B.pdf"]
+```
 
 ## Contents
 

@@ -38,6 +38,7 @@ flowchart LR
 - [LaTeX build (algorithm)](#latex-build-algorithm)
 - [Topic map](#topic-map)
 - [🗺️ Repository map](#️-repository-map)
+- [📊 Code composition](#-code-composition)
 
 ## LaTeX build (algorithm)
 
@@ -96,4 +97,15 @@ mindmap
   root((math))
     files
       README.md
+```
+
+
+## 📊 Code composition
+
+File-type breakdown of source under this repo (skips `.git`, `node_modules`, build caches, lockfiles).
+
+```mermaid
+pie showData title File-type composition of math (5 files)
+    "Other" : 4
+    "Markdown" : 1
 ```

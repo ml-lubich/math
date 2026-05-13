@@ -37,6 +37,7 @@ flowchart LR
 - [Contents](#contents)
 - [LaTeX build (algorithm)](#latex-build-algorithm)
 - [Topic map](#topic-map)
+- [🗺️ Repository map](#️-repository-map)
 
 ## LaTeX build (algorithm)
 
@@ -84,3 +85,15 @@ flowchart TB
 | `Variation of Parameters.pdf` | Solving inhomogeneous linear ODEs via variation of parameters. |
 | `What are the Complex Numbers?.pdf` | Construction and intuition for `ℂ`. |
 | `Wrap up of Math 1B.pdf` | End-of-course synthesis (single-variable integral calc / series). |
+
+
+## 🗺️ Repository map
+
+Top-level layout of `math` rendered as a Mermaid mindmap (auto-generated from the on-disk tree).
+
+```mermaid
+mindmap
+  root((math))
+    files
+      README.md
+```
